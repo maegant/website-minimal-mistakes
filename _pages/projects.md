@@ -1,8 +1,8 @@
 ---
 title: "Projects"
-layout: collection
+layout: category
 permalink: /projects/
-collection: projects
+<!-- collection: projects -->
 author_profile: false
 entries_layout: grid
 sort_by: date

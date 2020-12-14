@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -248,18 +248,18 @@ category_archive:
   path: /categories-grid/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /tags-grid/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
   # enabled:
-  #   - categories
-  #   - tags
+    # - categories
+    # - tags
   # layouts:
-  #   category: archive-taxonomy
-  #   tag: archive-taxonomy
+    # category: category-archive-grid #archive-taxonomy
+    # tag: tag-archive-grid #archive-taxonomy
   # permalinks:
-  #   category: /categories/:name/
-  #   tag: /tags/:name/
+    # category: /categories/:name/
+    # tag: /tags/:name/
 
 
 # HTML Compression
@@ -270,10 +270,10 @@ compress_html:
     envs: development
 
 # Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+  # projects:
+    # output: true
+    # permalink: /:collection/:path/
 
 # Defaults
 defaults:
