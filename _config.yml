@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Maegan Tucker
 description              : 
-url                      : "https://maegant.github.io"
+url                      : "http://www.maegantucker.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : maegant/website
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
