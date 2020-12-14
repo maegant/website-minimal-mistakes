@@ -22,6 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Maegan Tucker
 description              : 
 url                      : "http://www.maegantucker.com"
+giturl                   : "maegant.github.io/website"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : maegant/website
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"

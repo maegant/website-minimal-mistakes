@@ -4,4 +4,4 @@ layout: single
 classes: wide
 ---
 
-<embed src="{{site.url}}/cv.pdf" type="application/pdf" />
+<embed src="https://www.maegantucker.com/cv.pdf" type="application/pdf" />
