@@ -1,4 +1,44 @@
 ---
 layout: home
 author_profile: true
+header:
+  image: /images/exo_demo_crop.jpg
+  actions:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=mgQTjk0AAAAJ&hl=en"
+feature_row1:
+  - image_path: images/portfolio/chainrobots/elbow1.png
+    alt: "Projects Image"
+    title: "Projects"
+    excerpt: "Click the button below for more information on the various projects I have attempted/completed. These range from class projects to professional endeavors to fun side projects."
+    url: /projects/
+    btn_label: "View Projects"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: images/abstract-white.png
+    alt: "Research Image"
+    title: "Research"
+    excerpt: "To read more about my academic research projects either follow the link to my research page or visit my google scholar."
+    url: /research/
+    btn_label: "View Research"
+    btn_class: "btn--primary"
+feature_row3:
+  - title: "Curriculum Vitae (CV)"
+    excerpt: "For more details on my experiences please download my CV using the link below."
+    url: /cv/
+    btn_label: "View/Download CV"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="feature_row1" type="left" %}
+
+{% include feature_row id="feature_row2" type="right" %}
+
+{% include feature_row id="feature_row3" type="center" %}
+
+
+
+
+
+<!-- introduction: | -->
+  <!-- Hello, ny name is Maegan Tucker and I'm currently a fourth year graduate student at the California Institute of Technology (Caltech) pursuing a PhD in Mechanical Engineering. This website is a collection of the various projects (both personal and research related) that I've worked on. As always, please reach out to me if you have any questions, comments, or ideas. -->
