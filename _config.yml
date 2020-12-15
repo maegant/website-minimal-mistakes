@@ -86,9 +86,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-90411455-1
     anonymize_ip         : # true, false (default)
 
 
@@ -128,9 +128,9 @@ footer:
     # - label: "Facebook"
       # icon: "fab fa-fw fa-facebook-square"
       # url:
-    # - label: "GitHub"
-      # icon: "fab fa-fw fa-github"
-      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maegant"
     # - label: "GitLab"
       # icon: "fab fa-fw fa-gitlab"
       # url:
@@ -222,7 +222,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -230,7 +230,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 
@@ -294,23 +294,8 @@ defaults:
       author_profile: true
   # _projects
   - scope:
-      path: ""
-      type: projects
+      path: "_projects"
+      type: posts
     values:
       layout: single
-      author_profile: true
-  # _research
-  - scope:
-      path: ""
-      type: research
-    values:
-      layout: single
-      author_profile: true
-  # _research
-  - scope:
-      path: ""
-      type: cv
-    values:
-      layout: single
-      # author_profile: true
 

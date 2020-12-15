@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: category
-permalink: /projects/
+<!-- permalink: /projects/ -->
 <!-- collection: projects -->
 author_profile: false
 entries_layout: grid

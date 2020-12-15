@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: categories
-permalink: /categories-grid/
+permalink: /projects/
 entries_layout: grid
 author_profile: true
 ---

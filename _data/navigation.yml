@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Projects"
-    url: /categories-grid/
+    url: /projects/
   - title: "Research"
     url: /research/
   - title: "CV"
