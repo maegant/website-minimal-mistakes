@@ -1,12 +1,9 @@
 ---
 title: "Projects"
-layout: category
-<!-- permalink: /projects/ -->
-<!-- collection: projects -->
-author_profile: false
+layout: categories
+permalink: /projects/
 entries_layout: grid
-sort_by: date
-sort_order: reverse
+author_profile: true
 ---
 
 The following are a collection of all non-research projects I have attempted/completed. These include both professional endeavors as well as fun side projects.
