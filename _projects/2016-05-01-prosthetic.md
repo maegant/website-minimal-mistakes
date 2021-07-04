@@ -1,5 +1,6 @@
 ---
 title: "Transfemoral Prosthesis Undergraduate Research"
+layout: splash
 excerpt: "Undergraduate research involving a transfemoral prosthesis at Georgia Tech."
 header:
   teaser: images/portfolio/metabolic/device-400x200.png
@@ -11,6 +12,7 @@ tags:
 category: "Undergraduate Research"
 ---
 
+## Transfemoral Prosthesis Undergraduate Research
 In the summer of 2016, I conducted undergraduate research assisting with the design and evaluation of a dual-actuated transfemoral (above-the-knee) prosthesis.
 This research included the design of two different prosthetic foot designs as well as studying the human metabolic cost of transport for flat-foot and multi-contact walking.
 At the end of the summer, I presented this research at the S.U.R.E Research Symposium and won "Best Overall Presentation".
