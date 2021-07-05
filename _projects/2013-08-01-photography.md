@@ -3,7 +3,7 @@ title: "Photography"
 layout: splash
 excerpt: "Photos taken during undergraduate study abroad"
 header:
-  teaser: images/portfolio/photos/glass_400x200.jpg
+  teaser: images/portfolio/photos/preview.jpg
 gallery:
   - url: /images/portfolio/photos/atom.jpg
     image_path: /images/portfolio/photos/atom-th.jpg
