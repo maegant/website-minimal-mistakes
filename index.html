@@ -1,26 +1,29 @@
 ---
-layout: home
+layout: splash
 author_profile: true
 header:
-  image: /images/exo_demo_crop.jpg
-  actions:
-    - label: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=mgQTjk0AAAAJ&hl=en"
+  image: images/maegan2_banner.jpg
+intro: 
+  - title: "About Me"
+    excerpt: "Hi, my name is Maegan Tucker. I'm currently a PhD candidate at Caltech, under the advisement of [Dr. Aaron Ames](http://ames.caltech.edu/). My research is centered around achieving stable and user-preferred locomotion on robotic assistive devices using both **nonlinear control** and **machine learning**. My research has been supported by an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and the Caltech [RoAMS initiatiative](http://www.roams.caltech.edu/).
+
+    Aside from my research, I am deeply passionate about furthering DEI efforts within the robotics community. Towards this I am involved in several Caltech DEI efforts such as [Future Ignited](https://sfp.caltech.edu/diversity-equity-and-inclusion-programs/futures-ignited), [Freshman Summer Research Institute (FSRI)](https://diversity.caltech.edu/programs-training/freshman-summer-research-institute-fsri), and [Rise Tutoring](https://www.caltechy.org/rise-tutor). If you are interested in discussing either my research or wish to become involved in DEI initiatives, please reach out at ``mtucker@caltech.edu``!"
+
 feature_row1:
-  - image_path: images/portfolio/chainrobots/elbow1.png
-    alt: "Projects Image"
-    title: "Projects"
-    excerpt: "Click the button below for more information on the various projects I have attempted/completed. These range from class projects to professional endeavors to fun side projects."
-    url: /projects/
-    btn_label: "View Projects"
-    btn_class: "btn--primary"
-feature_row2:
   - image_path: images/abstract-white.png
     alt: "Research Image"
     title: "Research"
     excerpt: "To read more about my academic research projects either follow the link to my research page or visit my google scholar."
     url: /research/
     btn_label: "View Research"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: images/portfolio/chainrobots/elbow1.png
+    alt: "Projects Image"
+    title: "Non-Research Projects"
+    excerpt: "Click the button below for more information on the various projects I have attempted/completed. These range from class projects to professional endeavors to fun side projects."
+    url: /projects/
+    btn_label: "View Other Projects"
     btn_class: "btn--primary"
 feature_row3:
   - title: "Curriculum Vitae (CV)"
@@ -29,6 +32,11 @@ feature_row3:
     btn_label: "View/Download CV"
     btn_class: "btn--primary"
 ---
+
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
 
 {% include feature_row id="feature_row1" type="left" %}
 
