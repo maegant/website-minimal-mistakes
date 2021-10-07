@@ -3,15 +3,40 @@ title: "Research"
 layout: splash
 permalink: /research/
 collection: research
-header:
-  overlay_image: images/unsplash-image-11.jpg
-  actions:
-    - label: "Google Scholar Link"
-      url: "https://scholar.google.com/citations?user=mgQTjk0AAAAJ&hl=en"
-excerpt: Below is some brief information about my academic research, as well as the associated publications and videos. For more detailed information, please reference the full papers on my Google Scholar page.
+intro:
+  - title: "Selected Publications"
+    excerpt: "Below is a brief collection of my academic research. For more detailed information, please reference the full papers on my Google Scholar page."
+    url: "https://scholar.google.com/citations?user=mgQTjk0AAAAJ&hl=en"
+    btn_label: "Google Scholar Link"
+feature_row:
+  - image_path: images/papers/cospar.png
+    title: "Preference-Based Learning for Exoskeleton Gait Optimization"
+    excerpt: Maegan Tucker\*, Ellen Novoseller\*, Claudia Kann, Yanan Sui, Yisong Yue, Joel W. Burdick, and Aaron D. Ames (\*Equal Contribution)  <br/> *ICRA 2020 (Best Overall Conference Paper, Best Paper in Human-Robot Interaction)*
+    url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9196661&casa_token=O8_jDztcpcgAAAAA:TvobDsEUHHz-BvRsVjYnnmDd6KnmsMh-sLF22RciK9N-hfzv9xOPc0Ro8YAbmQjOGfwXyYzc&tag=1
+    btn_label: "Paper"
+    url2: https://www.youtube.com/watch?time_continue=4&v=-27sHXsvONE&feature=emb_title
+    btn_label2: "Video"
+    url3: https://sites.google.com/view/cospar/
+    btn_label3: "More Info"
+  - image_path: images/papers/var_assist.png
+    title: "Towards variable assistance for lower body exoskeletons"
+    excerpt: Thomas Gurriet, Maegan Tucker, Alexis Duburcq, Guilhem Boeris, Aaron D Ames  <br/> *RA-L with ICRA Option 2020*
+    url: https://ieeexplore.ieee.org/abstract/document/8913630
+    btn_label: "Paper"
+    url2: https://www.youtube.com/watch?v=UJC5j4BFxyo&feature=youtu.be
+    btn_label2: "Video"
+  - image_path: images/papers/roial.png
+    title: "ROIAL: Region of interest active learning for characterizing exoskeleton gait preference landscapes"
+    excerpt: Kejun Li, Maegan Tucker, Erdem Bıyık, Ellen Novoseller, Joel W Burdick, Yanan Sui, Dorsa Sadigh, Yisong Yue, Aaron D Ames <br/> *ICRA 2021*
+    url: https://arxiv.org/pdf/2011.04812.pdf
+    btn_label: "Paper"
+    url2: https://www.youtube.com/watch?v=04lMJmKmZrQ
+    btn_label2: "Video"
+    url3: https://sites.google.com/view/roial-icra2021
+    btn_label3: "More Info"
 ---
 
-My research is centered around human-robot interaction and control of bipedal robotics. More specifically, my research has three different branches: 
+<!-- My research is centered around human-robot interaction and control of bipedal robotics. More specifically, my research has three different branches: 
 - Utilizing preference-based learning to optimize exoskeleton user comfort and characterize the corresponding preference landscapes
 - Implementing preference-based learning directly in the gait generation process for bipedal robots
 - Control of a 18 degree-of-freedom lower-body exoskeleton, Atalante. 
@@ -56,3 +81,14 @@ In this work, we proposed and demonstrated a method of acheiving variable assita
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UJC5j4BFxyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+-->
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row type="left" %}
+
+<!-- 
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="left" %}
+  -->

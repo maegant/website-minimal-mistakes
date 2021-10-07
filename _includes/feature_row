@@ -21,7 +21,7 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            <h4 class="archive__item-title">{{ f.title }}</h4>
           {% endif %}
 
           {% if f.excerpt %}
@@ -30,9 +30,22 @@
             </div>
           {% endif %}
 
-          {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+
+          {% if f.link_url %}
+            <p><a href="{{ f.link_url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.link_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
+
+          {% if f.url %}
+            <p style="text-align:center"><a href="{{ f.url | relative_url }}" target="_blank" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% if f.url2 %}
+              <a href="{{ f.url2 | relative_url }}" target="_blank" class="btn {{ f.btn_class }}">{{ f.btn_label2 | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url3 %}
+              <a href="{{ f.url3 | relative_url }}" target="_blank" class="btn {{ f.btn_class }}">{{ f.btn_label3 | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            </p>
+          {% endif %}
+                    
         </div>
       </div>
     </div>
