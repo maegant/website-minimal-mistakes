@@ -34,6 +34,41 @@ feature_row:
     btn_label2: "Video"
     url3: https://sites.google.com/view/roial-icra2021
     btn_label3: "More Info"
+  - image_path: images/papers/icra2021-hzd.png
+    title: "Preference-based learning for user-guided HZD gait generation on bipedal walking robots"
+    excerpt: Maegan Tucker, Noel Csomay-Shanklin, Wen-Loong Ma, Aaron D Ames <br/> *ICRA 2021*
+    url: https://arxiv.org/pdf/2011.05424.pdf
+    btn_label: "Paper"
+    url2: https://www.youtube.com/watch?v=rLJ-m65F6C4&feature=youtu.be
+    btn_label2: "Video"
+    url3: https://maegant.github.io/ICRA2021-LearningHZD/
+    btn_label3: "More Info"
+  - image_path: images/papers/linecospar.png
+    title: "Human Preference-Based Learning for High-dimensional Optimization of Exoskeleton Walking Gaits"
+    excerpt: Maegan Tucker, Myra Cheng, Ellen Novoseller, Richard Cheng, Yisong Yue, Joel W Burdick, Aaron D Ames <br/> *IROS 2020*
+    url: https://arxiv.org/pdf/2003.06495.pdf
+    btn_label: "Paper"
+    url2: https://www.youtube.com/watch?v=c6a0kXMyML0
+    btn_label2: "Video"
+  - image_path: images/papers/ral2022.png
+    title: "Natural Multicontact Walking for Robotic Assistive Devices via Musculoskeletal Models and Hybrid Zero Dynamics"
+    excerpt: Kejun Li, Maegan Tucker, Rachel Gehlhar, Yisong Yue, Aaron D Ames <br/> *In Review RA-L with ICRA Option 2022*
+    url: https://arxiv.org/pdf/2109.05113.pdf
+    btn_label: "Paper"
+    url2: https://www.youtube.com/watch?v=gNL0cG1zqS4&feature=youtu.be
+    btn_label2: "Video"
+  - image_path: images/papers/spinal.png
+    title: "Evaluation of safety and performance of the self balancing walking system Atalante in patients with complete motor spinal cord injury"
+    excerpt: Jacques Kerdraon, Jean Gabriel Previnaire, Maegan Tucker, Pauline Coignard, Willy Allegre, Emmanuel Knappen, Aaron Ames <br/> *Spinal Cord Series and Cases 2021*
+    url: https://rdcu.be/cr3Lc
+    btn_label: "Paper"
+  - image_path: images/papers/PBL_control.png
+    title: "Learning Controller Gains on Bipedal Walking Robots via User Preferences"
+    excerpt: Noel Csomay-Shanklin, Maegan Tucker, Min Dai, Jenna Reher, Aaron D Ames <br/> *In Review ICRA 2022*
+    url: https://arxiv.org/pdf/2102.13201.pdf
+    btn_label: "Paper"
+    url2: https://www.youtube.com/watch?v=wrdNKK5JqJk&feature=youtu.be
+    btn_label2: "Video"
 ---
 
 <!-- My research is centered around human-robot interaction and control of bipedal robotics. More specifically, my research has three different branches: 
