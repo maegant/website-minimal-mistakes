@@ -80,7 +80,7 @@ At the end of the summer, I gave both a poster and oral presentation showcasing 
 
 
 My poster on "Evaluating the mechanical design of a transfemoral powered prosthesis through metabolic cost" can be seen 
-[HERE]({{site.url}}/img/portfolio/poster.pdf){:target="_blank"}
+[HERE]({{site.url}}/images/portfolio/poster.pdf){:target="_blank"}
 <div style="text-align:center">
 	<img style="height: 50%; width: 50%;" src="/images/portfolio/SURE/poster_candid.jpg" />
 	<img style="height: 50%; width: 50%;" src="/images/portfolio/SURE/firstplace.jpg" />
