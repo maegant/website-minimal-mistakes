@@ -69,7 +69,7 @@ feature_row:
     btn_label: "Paper"
     url2: https://www.youtube.com/watch?v=wrdNKK5JqJk&feature=youtu.be
     btn_label2: "Video"
-  - image_path: images/papers/SA-linecospar.png
+  - image_path: images/papers/SA-linecospar.PNG
     title: "Safety-Aware Preference-Based Learning for Safety-Critical Control"
     excerpt: Ryan K Cosner, Maegan Tucker, Andrew Taylor, Kejun Li, Tamás G. Molnár, Wyatt Ubellacker, Anil Alan, Gábor Orosz, Yisong Yue, and Aaron D Ames <br/> *In Review L4DC 2022*
     url: https://arxiv.org/pdf/2112.08516.pdf
