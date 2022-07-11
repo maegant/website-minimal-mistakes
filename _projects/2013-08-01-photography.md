@@ -1,6 +1,7 @@
 ---
 title: "Photography"
-layout: splash
+layout: single
+author_profile: true
 excerpt: "Photos taken during undergraduate study abroad"
 header:
   teaser: images/portfolio/photos/preview.jpg

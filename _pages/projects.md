@@ -1,5 +1,5 @@
 ---
-title: "Non-Research Related Projects"
+title: "Miscellaneous Projects"
 layout: collection
 permalink: /projects/
 collection: projects
@@ -10,4 +10,4 @@ sort_order: reverse
 classes: wide
 ---
 
-The following are a collection of all non-research projects I have attempted/completed. These include both professional endeavors as well as fun side projects.
+The following are a collection of all projects I have attempted/completed. These include both professional endeavors as well as fun side projects.
