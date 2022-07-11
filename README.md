@@ -1,3 +1,1 @@
-# Forked repo: [view original here](https://mmistakes.github.io/minimal-mistakes/)
-
-# View my implementation of this theme [here](https://maegant.github.io)
+#### Personal website based on the Jekyll theme [Minimal mistakes](https://mmistakes.github.io/minimal-mistakes/)
