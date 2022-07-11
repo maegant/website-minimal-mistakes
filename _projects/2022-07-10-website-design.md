@@ -17,7 +17,7 @@ I built this website (code available on my [github](https://github.com/maegant/w
 I choose to host my website using github pages. To set this up, I followed the instructions [here](https://pages.github.com/), specifically for the 'User or organization site'.                                       
 
 ## Step 2: Populate repository with Jekyll site:
-There are many ways to create your website, all of which can be hosted by Github Pages. In the past, I directly coded HTML code to create my website. However, I eventually found this hard to edit and update as my website content evolves. Thus, to more easily update my webiste, I switched to using [Jekyll](https://jekyllrb.com/). The main benefit of Jekyll is that it hides most of the HTML code in the backend, allowing you to focus on the actual content of your website. It is also easily customized and has many already developed layouts.
+There are many ways to create your website, all of which can be hosted by Github Pages. In the past, I directly coded HTML code to create my website. However, I eventually found this hard to edit and update as my website content evolved. Thus, to more easily update my website, I switched to using [Jekyll](https://jekyllrb.com/). The main benefit of Jekyll is that it hides most of the HTML code in the backend, allowing you to focus on the actual content of your website. It is also easily customized and has many already developed layouts.
 
 To get started with Jekyll, follow the quickstart guide [here](https://jekyllrb.com/docs/).
 
