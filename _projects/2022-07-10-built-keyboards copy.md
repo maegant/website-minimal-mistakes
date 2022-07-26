@@ -16,7 +16,7 @@ Over the past several years, I've purchased and assembled the following keyboard
 
 ### Lily58 Pro
 
-I chose to purchase the [Lily58](https://keyhive.xyz/shop/lily58) PCB kit because it is relatively inexpensive and has a unique layout. Specifically, I purchased the through-hole version because I wanted individual LEDS for each key. Although in hindsight, I probably would buy the hotswap version instead. To assemble the keyboard, I followed this [build guide](https://github.com/Keycapsss/Lily58L-Build-Guide/blob/master/buildguide_en.md).
+I chose to purchase the [Lily58 Pro](https://keyhive.xyz/shop/lily58) PCB kit because it is relatively inexpensive and has a unique layout. Specifically, I purchased the through-hole version because I wanted individual LEDS for each key. Although in hindsight, I probably would buy the hotswap version instead. To assemble the keyboard, I followed this [build guide](https://github.com/Keycapsss/Lily58L-Build-Guide/blob/master/buildguide_en.md). Also, my custom QMK firmware is provided [on my github](https://github.com/maegant/lily58_rgb).
 
 All purchased items:
 - Keyboard PCB and plates ([$25](https://keyhive.xyz/shop/lily58)) 
